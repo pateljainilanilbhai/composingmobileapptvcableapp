@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orderingFromXml="true" >
+
+
+        <PreferenceCategory android:title="TV Settings" >
+            <SwitchPreference
+                android:summary="Flip your device vertically to pause playing TV"
+                android:title="Flip to pause TV" android:key="@string/flip_key"/>
+        </PreferenceCategory>
+
+</PreferenceScreen>

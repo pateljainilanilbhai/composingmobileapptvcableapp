@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".TVGuide" >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="300dip"
+        android:layout_height="match_parent" 
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <View
+        android:layout_width="2dip"
+        android:layout_height="match_parent"
+        android:background="#000000" />
+
+    <FrameLayout
+        android:id="@+id/frTVGuideShow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_weight="2">
+
+    </FrameLayout>
+
+    
+</LinearLayout>

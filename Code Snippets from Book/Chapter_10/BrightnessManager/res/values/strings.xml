@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BrightnessManager</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="enable">Enable Brightness Manager</string>
+    <string name="info">This app uses Proximity Sensor to cycle screen brightness between LOW, MEDIUM and HIGH levels.</string>
+    <string name="info2">Now tap on the proximity sensor and observe the change in brightness.</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FragmentsDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string-array name="nationList">
+        <item >India</item>
+        <item >Sri Lanka</item>
+        <item >Australia</item>
+        <item >Bangladesh</item>
+    </string-array>
+    <string-array name="IndiaStateList">
+        <item >Andhra Pradesh</item>
+        <item >Arunachal Pradesh</item>
+        <item >Assam</item>
+        <item >Bihar</item>
+        <item >Chhattisgarh</item>
+        <item >Goa</item>
+        <item >Gujarat</item>
+        <item >Haryana</item>
+        <item >Himachal Pradesh</item>
+        <item >Jammu and Kashmir</item>
+        <item >Jharkhand</item>
+        <item >Karnataka</item>
+        <item >Kerala</item>
+        <item >Madhya Pradesh</item>
+        <item >Maharashtra</item>
+        <item >Manipur</item>
+        <item >Meghalaya</item>
+        <item >Mizoram</item>
+        <item >Nagaland</item>
+        <item >Orissa</item>
+        <item >Punjab</item>
+        <item >Rajasthan</item>
+        <item >Sikkim</item>
+        <item >Tamil Nadu </item>
+        <item >Tripura</item>
+        <item >Uttaranchal</item>
+        <item >Uttar Pradesh</item>
+        <item >West Bengal</item>
+    </string-array>
+    <string-array name="AustralianStateList">
+        <item >Western Australia</item>
+        <item >Northern Territory</item>
+        <item >South Australia</item>
+        <item >Queensland</item>
+        <item >New South Wales</item>
+        <item >Victoria</item>
+        <item >Tasmania</item>
+    </string-array>
+    <string-array name="SriLankaStateList">
+        <item >Western </item>
+        <item >Uva</item>
+        <item >Southern</item>
+        <item >Sabaragamuwa</item>
+        <item >North Western</item>
+        <item >Northern</item>
+        <item >North Central</item>
+        <item >Central</item>
+        <item >Eastern</item>
+    </string-array>
+    <string-array name="BangladeshStateList">
+        <item >Barisal</item>
+        <item >Chittagong</item>
+        <item >Dhaka</item>
+        <item >Khulna</item>
+        <item >Rajshahi</item>
+        <item >Rangpur</item>
+        <item >Sylhet</item>
+    </string-array>
+
+</resources>

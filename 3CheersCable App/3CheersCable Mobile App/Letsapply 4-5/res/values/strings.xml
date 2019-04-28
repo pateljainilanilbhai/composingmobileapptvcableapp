@@ -1,0 +1,9 @@
+
+<resources>
+
+    <string name="app_name">3CheersCable</string>
+    <string name="subs_heading">Subscribe</string>
+    <string name="subs_next">Next</string>
+    <string name="menu_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">3CheersCable</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="subs_heading">Subscribe</string>
+    <string name="subs_next">Next</string>
+    <string name="no_categories">No subscribed channel categories to show</string>
+    <string name="flip_key">flip</string>
+    
+    <string-array name="optionsList">
+        <item>View Channels</item>
+        <item>App Settings</item>
+        <item>Contact Us</item>
+    </string-array>
+    
+    <string-array name="categoriesList">
+        <item>Movies</item>
+        <item>Music</item>
+        <item>Sports</item>
+        <item>Entertainment</item>
+        <item>Kids</item>
+        <item>Lifestyle</item>
+    </string-array>
+	
+    <string-array name="Movies">
+    	<item>3C Movies</item>
+    	<item>3C MoviesNow</item>
+    </string-array>
+    
+    <string-array name="Music">
+    	<item>3C Music</item>
+    	<item>3C Cafe</item>
+    	<item>3C XM</item>
+    	<item>3C Tunes</item>
+    </string-array>
+    
+    <string-array name="Sports">
+    	<item>3C Hockey</item>
+    	<item>3C Cricket</item>
+    	<item >3C Football</item>
+    </string-array>
+    
+    <string-array name="Entertainment">
+    	<item>3C Cinema</item>
+    	<item>3C Plus</item>
+    	<item>3C World</item>
+    </string-array>
+    
+    <string-array name="Kids">
+    	<item>3C Cartoons</item>
+    	<item>3C Pogo</item>
+    </string-array>
+    
+    <string-array name="Lifestyle">
+    	<item>3C Cafe</item>
+    	<item >3C Lifestyle</item>    	
+    </string-array>
+</resources>

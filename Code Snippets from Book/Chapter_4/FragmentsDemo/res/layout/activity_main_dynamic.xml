@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/nationfragmentContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="3" >
+    </FrameLayout>
+
+    <View
+        android:id="@+id/View1"
+        android:layout_width="2dip"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark" />
+
+    <FrameLayout
+        android:id="@+id/stateFragmentContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+</LinearLayout>

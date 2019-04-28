@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmsManagerDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="smsHint">Enter here text to be sent</string>
+    <string name="sendSMSButtonMsg">Send SMS</string>
+
+</resources>

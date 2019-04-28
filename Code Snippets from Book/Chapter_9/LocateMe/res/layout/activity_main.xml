@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:text="currentLocation" 
+        android:id="@+id/coordinates_textView"
+        />
+
+    <TextView
+        android:id="@+id/address_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coordinates_textView"
+        android:layout_centerHorizontal="true"
+        android:text="currentAddress" />
+
+    <Button
+        android:id="@+id/startUpdates_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/coordinates_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="33dp"
+        android:layout_marginLeft="23dp"
+        android:text="Start updates"
+         android:onClick="startLocationUpdates"
+         />
+
+    <TextView
+        android:id="@+id/locationupdates_Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_textView"
+        android:layout_centerHorizontal="true"
+        android:text="Location updates disabled" />
+
+    <Button
+        android:id="@+id/getAdrress_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startUpdates_button"
+        android:layout_toRightOf="@+id/startUpdates_button"
+        android:onClick="getCurrentAddress"
+        android:text="Get Address" />
+
+    <Button
+        android:id="@+id/stopUpdates_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/startUpdates_button"
+        android:layout_alignBottom="@+id/startUpdates_button"
+        android:layout_alignLeft="@+id/getAdrress_button"
+        android:onClick="stopLocationUpdates"
+        android:text="Stop updates" />
+
+    <Button
+        android:id="@+id/getLocation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startUpdates_button"
+        android:layout_toLeftOf="@+id/getAdrress_button"
+        android:onClick="getCurrentLocation"
+        android:text="Get Location" />
+
+    <Button
+        android:id="@+id/movetoMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/address_textView"
+        android:layout_below="@+id/locationupdates_Status"
+        android:layout_marginTop="69dp"
+        android:onClick="viewMap"
+        android:text="View Map" />
+
+</RelativeLayout>

@@ -1,0 +1,1 @@
+This app does not have a starting activity. Hence on install there would not be any visible change to the emulator/device screen. Also to test this app you would need a real device due to lack of sensor support in Android Emulators.

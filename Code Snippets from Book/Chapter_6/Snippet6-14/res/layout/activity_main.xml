@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/expenseIncurredText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Net expense incurred"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/expenseIncurredDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_toRightOf="@+id/expenseIncurredText"
+        android:text="TextView"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/expenseIncurredText"
+        android:layout_marginTop="24dp"
+        android:text="Filter by amount"
+        tools:ignore="HardcodedText" />
+
+    <Spinner
+        android:id="@+id/filterByAmountSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/expenseIncurredDisplay"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/expenseIncurredDisplay" />
+
+    <ListView
+        android:id="@+id/expensesList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/filterByAmountSpinner"
+        android:layout_marginTop="30dp" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/expenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/filterByAmountSpinner"
+        android:layout_marginTop="14dp"
+        android:text="Expenses"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
